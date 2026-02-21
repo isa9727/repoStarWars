@@ -6,7 +6,7 @@ public class Niveles {
 
     /*
      * ==========================
-     * PERSONA 2
+     * AYOUB
      * Nivel 1 -> Sumatorio
      * ==========================
      */
@@ -17,7 +17,7 @@ public class Niveles {
 
     /*
      * ==========================
-     * PERSONA 2
+     * AYOUB
      * Nivel 2 -> Productorio
      * ==========================
      */
@@ -28,7 +28,7 @@ public class Niveles {
 
     /*
      * ==========================
-     * PERSONA 3
+     * HUGO
      * Nivel 3 -> Factorial N/10
      * ==========================
      */
@@ -39,7 +39,7 @@ public class Niveles {
 
     /*
      * ==========================
-     * PERSONA 4
+     * PATRI
      * Nivel 4 -> Número primo
      * ==========================
      */
@@ -50,7 +50,7 @@ public class Niveles {
 
     /*
      * ==========================
-     * PERSONA 3
+     * HUGO
      * Nivel 5 -> Factorial M + S
      * ==========================
      */

@@ -3,7 +3,7 @@ package juego;
 public class Utils {
 
     /*
-     * PERSONA 2
+     * AYOUB
      */
     public static int sumatorio(int a, int b) {
         // TODO: Implementar con bucle
@@ -11,7 +11,7 @@ public class Utils {
     }
 
     /*
-     * PERSONA 2
+     * AYOUB
      */
     public static long productorio(int a, int b) {
         // TODO: Implementar con bucle
@@ -19,7 +19,7 @@ public class Utils {
     }
 
     /*
-     * PERSONA 3
+     * PATRI
      */
     public static long factorial(int n) {
         // TODO: Implementar con bucle
@@ -27,7 +27,7 @@ public class Utils {
     }
 
     /*
-     * PERSONA 4
+     * HUGO
      */
     public static boolean esPrimo(int n) {
         // TODO: Implementar comprobación de primo
