@@ -67,7 +67,18 @@ public class Niveles {
      * ==========================
      */
     public static boolean nivel5(Scanner sc) {
-        // TODO: Implementar nivel 5
-        return true;
-    }
-}
+    	
+    	 int M = Utils.aleatorio(5, 10);
+    	 int S = Utils.aleatorio(5, 10);
+    	 
+    	 System.out.println("Nivel 5");
+    	 System.out.println("M = " + M + " , S = " + S);
+    	 System.out.println("Calcula factorial(M) + factorial(S)");
+    	 
+    	 long resultadoCorrecto = Utils.factorial(M) + Utils.factorial(S);
+    	 
+    	 System.out.print("Respuesta: ");
+    	 long respuestaUsuario = sc.nextLong();
+    	 
+    	 return respuestaUsuario == resultadoCorrecto;
+    	}
