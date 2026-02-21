@@ -44,6 +44,22 @@ public class Niveles {
      * ==========================
      */
     public static boolean nivel4(Scanner sc) {
+        int P = Utils.aleatorio(10, 100);
+        
+        System.out.println("Nivel 4");
+        System.out.println("El número es: " + P);
+        System.out.println("Si es primo introduce 1, si no 0");
+        
+        boolean esPrimo = Utils.esPrimo(P);
+        int resultadoCorrecto = esPrimo ? 1 : 0;
+        
+        System.out.print("Respuesta: ");
+        int respuestaUsuario = sc.nextInt();
+        
+        return respuestaUsuario == resultadoCorrecto;
+    }
+    
+    public static boolean nivel4(Scanner sc) {
         // TODO: Implementar nivel 4
         return true;
     }
