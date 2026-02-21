@@ -33,9 +33,21 @@ public class Niveles {
      * ==========================
      */
     public static boolean nivel3(Scanner sc) {
-        // TODO: Implementar nivel 3
-        return true;
-    }
+    	
+    	 int N = Utils.aleatorio(50, 100);
+    	 int valor = N / 10;
+    	 
+    	 System.out.println("Nivel 3");
+    	 System.out.println("N = " + N);
+    	 System.out.println("Calcula el factorial de " + valor);
+    	 
+    	 long resultadoCorrecto = Utils.factorial(valor);
+    	 
+    	 System.out.print("Respuesta: ");
+    	 long respuestaUsuario = sc.nextLong();
+    	 
+    	 return respuestaUsuario == resultadoCorrecto;
+    	}
 
     /*
      * ==========================
