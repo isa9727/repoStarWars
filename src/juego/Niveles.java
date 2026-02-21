@@ -74,7 +74,7 @@ public class Niveles {
     	 System.out.println("Nivel 5");
     	 System.out.println("M = " + M + " , S = " + S);
     	 System.out.println("Calcula factorial(M) + factorial(S)");
-    	 
+
     	 long resultadoCorrecto = Utils.factorial(M) + Utils.factorial(S);
     	 
     	 System.out.print("Respuesta: ");
@@ -82,3 +82,5 @@ public class Niveles {
     	 
     	 return respuestaUsuario == resultadoCorrecto;
     	}
+
+}
