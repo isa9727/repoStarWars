@@ -21,6 +21,7 @@ public class Utils {
     /*
      * PATRI
      */
+    
     public static boolean esPrimo(int n) {
         if (n <= 1) {
             return false;
