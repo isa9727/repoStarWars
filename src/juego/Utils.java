@@ -1,14 +1,13 @@
 package juego;
 
 public class Utils {
-
-    /*
-     * AYOUB
-     */
-    public static int sumatorio(int a, int b) {
-        // TODO: Implementar con bucle
-        return 0;
-    }
+	public static int sumatorio(int a, int b) {
+		int suma = 0;
+		for (int i = a; i <= b; i++) {
+		suma += i;
+		}
+		return suma;
+		}
 
     /*
      * AYOUB
