@@ -21,10 +21,6 @@ public class Utils {
     /*
      * PATRI
      */
-    public static long factorial(int n) {
-        // TODO: Implementar con bucle
-        return 0;
-    }
 
     /*
      * HUGO
