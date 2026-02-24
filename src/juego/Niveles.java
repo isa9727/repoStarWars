@@ -59,10 +59,7 @@ public class Niveles {
         return respuestaUsuario == resultadoCorrecto;
     }
     
-    public static boolean nivel4(Scanner sc) {
-        // TODO: Implementar nivel 4
-        return true;
-    }
+   
 
     /*
      * ==========================

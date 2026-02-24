@@ -44,11 +44,6 @@ public class Utils {
     /*
      * HUGO
      */
-    public static boolean esPrimo(int n) {
-        // TODO: Implementar comprobación de primo
-        return false;
-    }
-
     /*
      * MÉTODO GENERAL (YA FUNCIONA)
      */
