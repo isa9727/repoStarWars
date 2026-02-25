@@ -46,9 +46,21 @@ public class Niveles {
      * ==========================
      */
     public static boolean nivel3(Scanner sc) {
-        // TODO: Implementar nivel 3
-        return true;
-    }
+    	
+    	 int N = Utils.aleatorio(50, 100);
+    	 int valor = N / 10;
+    	 
+    	 System.out.println("Nivel 3");
+    	 System.out.println("N = " + N);
+    	 System.out.println("Calcula el factorial de " + valor);
+    	 
+    	 long resultadoCorrecto = Utils.factorial(valor);
+    	 
+    	 System.out.print("Respuesta: ");
+    	 long respuestaUsuario = sc.nextLong();
+    	 
+    	 return respuestaUsuario == resultadoCorrecto;
+    	}
 
     /*
      * ==========================
@@ -68,7 +80,20 @@ public class Niveles {
      * ==========================
      */
     public static boolean nivel5(Scanner sc) {
-        // TODO: Implementar nivel 5
-        return true;
-    }
+    	
+    	 int M = Utils.aleatorio(5, 10);
+    	 int S = Utils.aleatorio(5, 10);
+    	 
+    	 System.out.println("Nivel 5");
+    	 System.out.println("M = " + M + " , S = " + S);
+    	 System.out.println("Calcula factorial(M) + factorial(S)");
+
+    	 long resultadoCorrecto = Utils.factorial(M) + Utils.factorial(S);
+    	 
+    	 System.out.print("Respuesta: ");
+    	 long respuestaUsuario = sc.nextLong();
+    	 
+    	 return respuestaUsuario == resultadoCorrecto;
+    	}
+
 }

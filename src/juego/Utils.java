@@ -19,18 +19,17 @@ public class Utils {
     /*
      * PATRI
      */
-    public static long factorial(int n) {
-        // TODO: Implementar con bucle
-        return 0;
-    }
 
     /*
      * HUGO
      */
-    public static boolean esPrimo(int n) {
-        // TODO: Implementar comprobación de primo
-        return false;
-    }
+    public static long factorial(int n) {
+    	 long resultado = 1;
+    	 for (int i = 1; i <= n; i++) {
+    	 resultado *= i;
+    	 }
+    	 return resultado;
+    	}
 
     /*
      * MÉTODO GENERAL (YA FUNCIONA)
