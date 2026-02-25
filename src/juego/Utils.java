@@ -1,23 +1,21 @@
 package juego;
 
 public class Utils {
+	public static int sumatorio(int a, int b) {
+		int suma = 0;
+		for (int i = a; i <= b; i++) {
+		suma += i;
+		}
+		return suma;
+		}
 
-    /*
-     * AYOUB
-     */
-    public static int sumatorio(int a, int b) {
-        // TODO: Implementar con bucle
-        return 0;
-    }
-
-    /*
-     * AYOUB
-     */
-    public static long productorio(int a, int b) {
-        // TODO: Implementar con bucle
-        return 0;
-    }
-
+	public static long productorio(int a, int b) {
+		long producto = 1;
+		for (int i = a; i <= b; i++) {
+		producto *= i;
+		}
+		return producto;
+		}
     /*
      * PATRI
      */
